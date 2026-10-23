@@ -71,7 +71,7 @@ def load_tracking_events(tracking_number: str) -> list[sqlite3.Row]:
             (tracking_number,),
         ).fetchall()
 
-
+'AI generated method to get the next tracking number based on the existing ones in the database'
 def get_next_tracking_number() -> int:
     """Return one higher than the largest numeric PKG tracking number."""
     with _connect() as connection:
